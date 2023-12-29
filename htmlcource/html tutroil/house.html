@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="E:\htmlcource\html tutroil\fontawesome-free-6.4.2-web (3)//fontawesome-free-6.4.2-web/css/all.min.css">
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:green;
+  color:white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 20px  20px ;
+  background-color:white;
+  position: relative;
+  
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+
+}
+
+.container {
+  padding: 10px;
+  background-image: url(house.webp);
+  color: white;
+
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* .leave{
+ color:black;
+ position: absolute;
+ top: 20%;
+ left: 50;
+} */
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.sun{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 30%;
+  top: 10%;
+  left: 25%;
+}
+.lotus{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 20%;
+  top: 65%;
+  left: 69%;
+}
+.jpg{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 80%;
+  top: 0%;
+  left: 38%;
+
+}
+.png{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 50%;
+  top: 74%;
+  left: 55%;
+
+}
+
+
+
+ </style>
+</head>
+<body>
+    
+    
+    
+
+
+    <form action="/action_page.php" method="post">
+      <div class="imgcontainer" style="position: relative;">
+       <img src="line.jpg" alt="line" class="line">
+       <img src="lotus.jpg" alt="sun" class="lotus" >
+       <img src="tedy.jpg" alt="sun" class="sun" >
+       <img src="download.jpg" alt="sun" class="jpg" >
+       <img src="back.jpg" alt="sun" class="png" >
+    </div>
+      <div class="leave"></div>
+      <h2 style=" color:whitesmoke; position: absolute; top: 30%;left: 40%;font-size:60px;">Login Form</h2>
+      
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+         <center>  
+        <button type="submit">Login</button>
+      </center>
+     <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <div class="container" style="background-color: aqua;">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+            
+  </div>
+
+  <!-- <div class="container" style="background-color: aqua;">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+        
+         -->
+             
+    
+        </div>
+        
+      </div>
+        
+    
+</div>
+
+
+
+
+    
+</body>
+</html>

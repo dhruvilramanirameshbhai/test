@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="E:\htmlcource\html tutroil\fontawesome-free-6.4.2-web (3)//fontawesome-free-6.4.2-web/css/all.min.css">
+    <style>
+        * {
+            margin: 5px;
+            box-sizing: border-box;
+        }
+
+        ul {
+            padding: 15px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            top: 0px;
+            width: 100%;
+
+        }
+
+        li {
+            color: black;
+            list-style-type: none;
+            font-weight: italic;
+
+        }
+
+        .lorem {
+            font-weight: bold;
+            position: absolute;
+            top: 13px;
+            width: 100%;
+
+        }
+
+        .class {
+            position: absolute;
+            top: -9px;
+            width: 100%;
+            left: 80%;
+
+        }
+
+        .search {
+            position: absolute;
+            top: 0px;
+            width: 0%;
+            left: 10%;
+
+
+        }
+
+        .menu:hover {
+            cursor: pointer;
+        }
+
+        .needs {
+            font-weight: bold;
+            position: absolute;
+
+            top: 80px;
+            width: 30%;
+            font-size: 2rem;
+
+        }
+
+        .ipsum {
+            font-weight: bold;
+            font-size: 1.4rem;
+            position: absolute;
+            top: 50%;
+            width: 39%;
+
+        }
+
+        .button1 {
+
+            position: absolute;
+            top: 67%;
+            left: 1%;
+            width: 10%;
+            background-color: orange;
+            border: 1px solid orange;
+            color: white;
+            height: 40px;
+
+        }
+
+        .button1:hover {
+
+            background-color: rgb(255, 255, 255);
+            border: 1px solid orange;
+            color: orange;
+
+        }
+
+        .button2 {
+
+            position: absolute;
+            top: 67%;
+            left: 13%;
+            width: 10%;
+            background-color: skyblue;
+            border: 1px solid skyblue;
+            color: white;
+            height: 40px;
+
+        }
+
+        .button2:hover {
+
+            background-color: rgb(255, 255, 255);
+            border: 1px solid skyblue;
+            color: skyblue;
+        }
+
+        img {
+            position: absolute;
+            height: 650px;
+            width: 650px;
+            top: 20%;
+            right: 9%;
+
+        }
+
+        .leave {
+            position: absolute;
+            top: 600px;
+            width: 120%;
+            left: 0%;
+            font-size: 1.5rem;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .word {
+            position: absolute;
+            top: 670px;
+            width: 120%;
+            left: 0%;
+            font-size: 0.7rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .box2{
+             margin-top: 45px;                            
+             background-color:whitesmoke;
+             padding: 25px;
+             border-radius: 5px;
+             position: absolute;
+             top: 120%;
+             height: 550px;
+             width: 450px;
+             left: 40%;
+             display: flex;
+    
+            }
+
+        /* .img-box{
+                
+                max-height: 50%;
+                max-width: 50%;
+                display: flex;
+                
+                
+                
+            } */
+        img {
+            vertical-align: middle;
+            border-style: none;
+            position: absolute;
+            max-width: 200px;
+            max-height: 200px;
+            top: 10%;
+
+        }
+
+        .detail-box {
+            position: absolute;
+            top: 69%;
+            font-size: 2.9rem;
+
+
+
+
+        }
+
+        .price-box {
+            position: absolute;
+            top: 80%;
+            font-size: 2.4rem;
+
+
+        }
+
+        a {
+            position: absolute;
+            top: 80%;
+            font-size: 2rem;
+            left: 70%;
+
+
+        }
+
+        .box {
+            margin-top: 45px;
+            background-color: whitesmoke;
+            padding: 25px;
+            border-radius: 5px;
+            position: absolute;
+             top: 120%;
+             height: 550px;
+             width: 450px;
+             left: 0%;
+            display: flex;
+
+
+        }
+
+        /* .img-box{
+                
+                max-height: 10%;
+                max-width: 10%;
+                
+            
+                
+                
+            } */
+        img {
+            vertical-align: middle;
+            border-style: none;
+            position: absolute;
+            max-width: 200px;
+            max-height: 200px;
+            top: 10%;
+            right: 30%;
+
+        }
+
+        .detail-box {
+            position: absolute;
+            top: 69%;
+            font-size: 2.9rem;
+
+
+
+
+        }
+
+        .price-box {
+            position: absolute;
+            top: 80%;
+            font-size: 2.4rem;
+
+
+        }
+
+        a {
+            position: absolute;
+            top: 80%;
+            font-size: 2rem;
+            left: 70%;
+
+            
+        }
+        .mobile{
+            margin-top: 45px;
+            background-color: whitesmoke;
+            padding: 25px;
+            border-radius: 5px;
+            position: absolute;
+             top: 120%;
+             height: 550px;
+             width: 450px;
+             left: 80%;
+            display: flex;
+
+        }
+        .phone{
+            margin-top: 45px;
+            background-color: whitesmoke;
+            padding: 25px;
+            border-radius: 5px;
+            position: absolute;
+             top: 230%;
+             height: 550px;
+             width: 450px;
+             left: 0%;
+            display: flex;
+
+        }
+        .call{
+            margin-top: 45px;
+            background-color: whitesmoke;
+            padding: 25px;
+            border-radius: 5px;
+            position: absolute;
+             top: 230%;
+             height: 550px;
+             width: 450px;
+             left: 40%;
+            display: flex;
+
+        }
+        .cube{
+            margin-top: 45px;
+            background-color: whitesmoke;
+            padding: 25px;
+            border-radius: 5px;
+            position: absolute;
+             top: 230%;
+             height: 550px;
+             width: 450px;
+             left: 80%;
+            display: flex;
+
+        }
+        .about{
+            margin-top: 45px;
+            background-color: whitesmoke;
+            padding: 25px;
+            border-radius: 5px;
+            position: absolute;
+             top: 340%;
+             height: 300px;
+             width: 1470px;
+             left: 0%;
+            display: flex;
+
+        }
+        .css{
+            margin-left: 50%;
+            
+        }
+        .img{
+            margin-right:50%;
+            width: 250px;
+            height: 250px;
+        }
+        .long{
+            position: absolute;
+            left: 50%;
+            top: 20%;
+            font-size: 1.5rem;
+        }
+        .but{   position: absolute;
+            top: 60%;
+            left: 50%;
+            width: 10%;
+            background-color: skyblue;
+            border: 1px solid skyblue;
+            color: white;
+            height: 40px;
+        }
+        .but:hover{
+            background-color: rgb(255, 255, 255);
+            border: 1px solid skyblue;
+            color: skyblue;
+        }
+        .big{
+            position: absolute;
+            top: 430%;
+            left: 45%;
+        }
+        .http{
+            position: absolute;
+            top: 450%;
+            left: 10%;
+           
+        }
+       
+        .even{
+            position: absolute;
+            top: 490%;
+            left: 10%;
+            width: 1000px;
+
+        }
+
+       
+       
+/* 
+
+        .boxx {
+            display: flex;
+        } */
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <ul>
+                <li> HOME</li>
+                <li> ABOUT</li>
+                <li>FURNITURE</li>
+                <li>BLOG</li>
+                <li>CONTACT US</li>
+
+            </ul>
+        </div>
+
+        <div class="lorem">
+            <h1>
+                EDGECUT
+
+            </h1>
+            <div class="needs">
+                <h1>
+                    FOR ALL YOUR FURNITURER NEEDS
+                </h1>
+            </div>
+
+            <div class="class">
+                <h3>
+                    LOGIN
+                    <i class="fa-solid fa-user"></i>
+                </h3>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <div class="ipsum">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit
+            minus quidem maiores perspiciats, illo maxime
+            voluptatem a itaque suscipit.
+        </p>
+    </div>
+
+    <button class="button1">
+        contact us
+
+    </button>
+
+    <button class="button2">
+        about us
+    </button>
+    <div class="git">
+        <img src="https://themewagon.github.io/EdgeCut/images/slider-img.png" alt="">
+    </div>
+
+
+
+
+    <div class="leave">
+        <h1>
+            our furniture
+        </h1>
+
+    </div>
+    <div class="word">
+        <h1>
+            which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
+            sure there isn't an
+        </h1>
+    </div>
+    <div class="boxx">
+        <div class="box">
+            <div class="img-box">
+                <img src="c:\Users\dhruv\OneDrive\Desktop\first website\chair.png" alt="">
+            </div>
+            <div class="detail-box">
+                <h5>
+                    brown chair design
+                </h5>
+            </div>
+            <div class="price-box">
+                <h6>
+                    $100.00
+                </h6>
+
+            </div>
+            <a href> buy now</a>
+        </div>
+        <div class="box2">
+            <div class="img-box">
+                <img src="c:\Users\dhruv\OneDrive\Desktop\first website\bead.png" alt="">
+            </div>
+            <div class="detail-box">
+                <h5>
+                    double bed design
+                </h5>
+            </div>
+            <div class="price-box">
+                <h6>
+                    $200.00
+                </h6>
+
+            </div>
+            <a href> buy now</a>
+        </div>
+
+
+       
+    </div>
+    <div class="mobile">
+        <div class="img-box">
+            <img src="c:\Users\dhruv\OneDrive\Desktop\first website\officechair.png" alt="">
+        </div>
+        <div class="detail-box">
+            <h5>
+              house chair design
+            </h5>
+        </div>
+        <div class="price-box">
+            <h6>
+                $200.00
+            </h6>
+
+        </div>
+        <a href> buy now</a>
+    
+    </div>
+    <div class="phone">
+        <div class="img-box">
+            <img src="c:\Users\dhruv\OneDrive\Desktop\first website\table.png" alt="">
+        </div>
+        <div class="detail-box">
+            <h5>
+              brown table design
+            </h5>
+        </div>
+        <div class="price-box">
+            <h6>
+                $100.00
+            </h6>
+
+        </div>
+        <a href> buy now</a>
+    
+    </div>
+    <div class="call">
+        <div class="img-box">
+            <img src="c:\Users\dhruv\OneDrive\Desktop\first website\bluechair.png" alt="">
+        </div>
+        <div class="detail-box">
+            <h5>
+              blue chair design
+            </h5>
+        </div>
+        <div class="price-box">
+            <h6>
+                $200.00
+            </h6>
+
+        </div>
+        <a href> buy now</a>
+    
+    </div>
+    <div class="cube">
+        <div class="img-box">
+            <img src="c:\Users\dhruv\OneDrive\Desktop\first website\drasing.png" alt="">
+        </div>
+        <div class="detail-box">
+            <h5>
+              brown table  design
+            </h5>
+        </div>
+        <div class="price-box">
+            <h6>
+                $200.00
+            </h6>
+
+        </div>
+        <a href> buy now</a>
+    
+    </div>
+    <div class="about">
+        <h2 class="css">
+            ABOUT US
+        </h2>
+            <img class="img"  src="https://themewagon.github.io/EdgeCut/images/about-img.png" alt="">
+     <p class="long">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore.
+     </p>
+     <button class="but">
+        Read More
+     </button>
+
+        
+    </div>
+    
+
+<div class="big">
+    <h1>
+        LATEST BLOG
+    </h1>
+</div>
+<!-- <div class="omg">
+    <img class="http" src="https://themewagon.github.io/EdgeCut/images/b1.jpg" alt="">
+    <h3 class="even">
+        Look even slightly believable. If you are
+    </h3>
+    <p >
+        alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+    </p>
+</div> -->
+<div style="width: 100%;">
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web (3)/fontawesome-free-6.4.2-web/css/all.min.css">
+    <style>
+        img{
+            height: 500%;
+            max-width:100%;
+        
+          
+        }
+        ul{
+            position: absolute;
+            top: 3%;
+            display: flex;
+            color: white;
+            gap: 20px;
+            left: 38%;
+           font-size: 1.3rem;
+           
+          
+        }
+    .tech{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: white;
+    
+    }
+    .high{
+    position: absolute;
+    top: 3%;
+    left: 11%;
+     color:#26d48c;  
+    }
+    .call{
+        position: absolute;
+        top: 3%;
+        left: 83%;
+        /* width: 20%; */
+        color: white;
+    }
+       i{
+        position: absolute;
+        top: 9%;
+        left: 79%;
+        /* width: 20%; */
+        color: white;
+       }    
+
+       .heading{
+        position: absolute;
+        top: 30%;
+        left: 30%;  
+        width: 50%;
+        font-size: 40px;
+        color: white;
+        background-color: black;
+        opacity: 0.5;
+       }
+.btn1{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+.btn2{
+    position: absolute;
+    top: 60%;
+    left: 95%;
+} 
+.menister{
+    display: flex;
+    gap: 20px;
+    width: 40%;
+}
+ 
+    </style>
+</head>
+<body>
+    
+       
+    <div class="container">
+        
+            <nav>
+                <div class="menu">
+                   
+                    <ul>
+                       
+                          
+                      <li>  HOME</li>
+                      <li>  CONTACT</li>
+                      <li> ABOUT</li>
+                      <li> SERVICE</li>
+                     
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="w3-content w3-display-container">
+            <img class="mySlides" src="carousel-1.jpg" style="width:100%">
+            <img class="mySlides" src="carousel-2.jpg" style="width:100%">
+            <img class="mySlides" src="hill.jpg" style="width:100%">
+            <img class="mySlides" src="doc.jpg" style="width:100%">
+          
+            <button class="btn1" class="w3-button w3-black w3-display-left" onclick="plusDivs(1)">&#10094;</button>
+            <button class="btn2"  class="w3-button w3-black w3-display-right" onclick="plusDivs(-1)">&#10095;</button>
+          </div>
+          
+          <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display="none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+    
+</script>    
+        
+        <h1 class="tech">
+            High 
+        </h1>
+        <h1 class="high">
+            Tech
+        </h1>
+        <h2 class="call">
+            Have any question
+            call:9316264881
+        </h2>
+   <i class="fa fa-phone-alt text-white fa-2x"></i>
+  
+  </script>
+ 
+ 
+   <div class="heading">
+    <h1>
+        An Innovative IT Solutions Agency    
+    </h1>
+   </div>
+    </div>
+    <div class="menister">
+        <h2>
+            99
+Success in getting happy customer
+        </h2>
+        <h2>
+            99
+Success in getting happy customer
+        </h2>
+    </div>
+</body>
+</html>

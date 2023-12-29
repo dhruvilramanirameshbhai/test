@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="E:\htmlcource\html tutroil\fontawesome-free-6.4.2-web (3)//fontawesome-free-6.4.2-web/css/all.min.css">
+    
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+        .menu{
+            height: 50px;
+            
+        }
+           
+        
+        
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .menu{
+            width: 100%;
+            display: flex;
+            padding: 10px;
+            justify-content: space-between;
+        }
+        .links{
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            padding: 10px;
+            font-weight: bold;
+            color: black;
+        }
+        input:focus{
+            outline: none;
+        }
+        .search{
+            display: flex;
+            align-items: center;
+            border-radius: 100%;
+        
+        }
+        .icon{
+            width: 15%;
+            display: flex;
+            gap: 15px;
+        }
+        .first{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .second{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .third{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="logo"><img src="../myntra.avif" alt=""></div>
+        <div class="links">
+            <a href="">MEN</a>
+            <a href="">WOMEN</a>
+            <a href="">KIDS</a>
+            <a href="">HOME AND LIVING</a>
+            <a href="">BEAUTY</a>
+            <a href="" style="margin-bottom: 4px;">
+            STUDIO
+            <span><sup>NEW</sup></span>
+        </a>
+        </div>
+        <div class="search">
+           
+            <input type="text" placeholder="search for product data "/>
+        
+        </div>
+        <div class="icon">
+            <div class="first">
+                <i class="fa-solid fa-user"></i>
+                <span>profile</span>
+            </div>
+            <div class="second">
+                <i class="fa-regular fa-heart"></i>
+                <span>whishilst</span>
+            </div>
+            <div class="third">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>bag</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
